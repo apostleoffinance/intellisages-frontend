@@ -38,7 +38,7 @@ const SubscribeCard: React.FC = () => {
             </div> */}
             <div className="flex flex-col sm:flex-row gap-0 w-full">
               <Link
-                href="https://www.intellisages.com/?utm_campaign=pub&utm_medium=web" 
+                href="https://intellisages.substack.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors text-center text-sm"

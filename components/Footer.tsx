@@ -61,7 +61,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://www.intellisages.com/?utm_campaign=pub&utm_medium=web" className="text-gray-400 hover:text-[#FF6600] transition-colors">
+                  <Link href="https://intellisages.substack.com/" className="text-gray-400 hover:text-[#FF6600] transition-colors">
                     Substack
                   </Link>
                 </li>

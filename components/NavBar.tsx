@@ -32,7 +32,7 @@ const NavBar = () => {
               </Link>
             </div>
             <Button className="bg-[#FF6600] hover:bg-[#E55A00] text-white">
-              <Link href={'https://www.intellisages.com/?utm_campaign=pub&utm_medium=web'} target='_blank'>Join the Network</Link>
+              <Link href={'https://intellisages.substack.com/'} target='_blank'>Join the Network</Link>
             </Button>
           </div>
         </div>
