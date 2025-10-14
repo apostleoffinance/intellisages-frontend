@@ -51,12 +51,12 @@ const Footer = () => {
               <h4 className="font-semibold mb-4">Connect</h4>
               <ul className="space-y-2">
                 <li>
-                  <Link href="#" className="text-gray-400 hover:text-[#FF6600] transition-colors">
+                  <Link href="https://x.com/IntelliSages" className="text-gray-400 hover:text-[#FF6600] transition-colors">
                     Twitter/X
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-gray-400 hover:text-[#FF6600] transition-colors">
+                  <Link href="https://www.linkedin.com/company/intellisages/" className="text-gray-400 hover:text-[#FF6600] transition-colors">
                     LinkedIn
                   </Link>
                 </li>

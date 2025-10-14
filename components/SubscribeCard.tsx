@@ -25,7 +25,7 @@ const SubscribeCard: React.FC = () => {
             </h2>
             
             <p className="text-gray-700 text-base md:text-lg">
-              subscribing to latest Asian Web 3 market insights
+              subscribing to latest Africa Web 3.0 market insights
             </p>
 
             {/* <div className="flex flex-col sm:flex-row gap-0">
