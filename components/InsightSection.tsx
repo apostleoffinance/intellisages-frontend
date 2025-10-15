@@ -16,7 +16,7 @@ const InsightSection = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "Stablecoins in Africa",
+                title: "The Rise of Local Stablecoins in Africa",
                 description:
                   "Analyzing the rapid adoption of USD-backed stablecoins across African markets and their impact on remittances.",
                 icon: TrendingUp,
