@@ -71,20 +71,6 @@ const SubscribeCard: React.FC = () => {
           <Image src="/phone.png" alt="ig bg" width={288} height={600} />
         </div>
       </div>
-
-      {/* ✅ Move “As Seen In” section inside the same parent */}
-      <div className="mt-6 text-center">
-        <p className="text-[10px] font-semibold text-gray-500 mb-2 tracking-wider">
-          AS SEEN IN
-        </p>
-        <div className="flex items-center justify-center gap-4">
-          <span className="text-base font-bold text-gray-800">Xangle</span>
-          <span className="text-base font-serif font-bold text-gray-800">
-            Forbes
-          </span>
-          <span className="text-base font-bold text-gray-800">Bloomberg</span>
-        </div>
-      </div>
     </div>
   );
 };
