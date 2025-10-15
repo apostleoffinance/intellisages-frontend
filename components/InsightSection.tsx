@@ -21,7 +21,7 @@ const InsightSection = () => {
                   "Analyzing the rapid adoption of USD-backed stablecoins across African markets and their impact on remittances.",
                 icon: TrendingUp,
                 category: "Market Research",
-                link: 'https://intellisages.substack.com/'
+                link: 'https://intellisages.substack.com/p/the-rise-of-local-stablecoins-in'
               },
               //Add more
             //   {
