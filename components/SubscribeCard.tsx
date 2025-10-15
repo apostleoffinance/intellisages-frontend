@@ -1,17 +1,9 @@
 "use client"
+import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
 
 const SubscribeCard: React.FC = () => {
-  const [email, setEmail] = useState('');
-
-  const handleSubscribe = () => {
-    if (email) {
-    //   console.log('Subscribed:', email);
-      // Add your subscription logic here
-      setEmail('');
-    }
-  };
 
   return (
     <div className="w-full max-w-5xl mx-auto px-4 py-8">
@@ -73,28 +65,7 @@ const SubscribeCard: React.FC = () => {
           </div>
 
           {/* Right Content - Phone Mockup */}
-          <div className="flex flex-col items-center justify-center">
-            <div className="relative">
-              {/* Phone Frame */}
-              <div className="w-52 h-[420px] bg-black rounded-[2.5rem] p-2.5 shadow-xl">
-                <div className="w-full h-full bg-gray-900 rounded-[2rem] overflow-hidden relative">
-                  {/* Notch */}
-                  <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-24 h-5 bg-black rounded-b-2xl z-10"></div>
-                  
-                  {/* Screen Content */}
-                  <div className="w-full h-full overflow-y-auto bg-gradient-to-b from-gray-800 to-gray-900 p-3 pt-7">
-                    <div className="space-y-3">
-                      <div className="bg-gray-800 rounded-lg p-3 text-white text-[10px]">
-                        <p className="font-semibold mb-1.5">Latest Article</p>
-                        <p className="text-gray-300 leading-tight">US-[Relevant] Can the [Regulated] Extend Use the [Data] Lead?</p>
-                      </div>
-                      <div className="bg-gray-800 rounded-lg p-3 text-white text-[10px]">
-                        <p className="font-semibold mb-1.5">Article</p>
-                        <p className="text-gray-300 leading-tight">Do [Subject] Leverage [Power] More [Action]?</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          <Image src={'/phone.png'} alt='ig bg' width={288} height={600} />
               </div>
             </div>
 
